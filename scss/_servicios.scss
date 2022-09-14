@@ -1,0 +1,25 @@
+div{
+	& table{
+	margin: left;
+	width: 600px;
+	height: 500px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	border: none;
+	& th{
+	text-align: center;
+	color: $colorSecundario;
+	font-family: $fuenteSecundario;
+	font-size: $subTitulos;
+	border: none;
+	}
+	& td{
+	text-align: center;
+	color: $colorSecundario;
+	font-family: $fuenteSecundario;
+	font-size: $subMenor;
+	border: none;
+	padding: 5px;
+	}
+	}	
+}

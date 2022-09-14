@@ -1,0 +1,28 @@
+
+.bienvenida{
+	color: $colorSecundario;
+    font-family: $fuentePrincipal;
+    font-size: $titulos;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+
+.bienvenida--subTitulo{
+	@extend .bienvenida;
+    font-size: $subTitulos;
+}
+.bienvenida--subTituloMenor{
+    @extend .bienvenida;
+    font-size: $subMenor;
+}
+.bienvenida--subFooter{
+    @extend .bienvenida;
+    font-size: $parrafos;
+    line-height: 1.7em;
+}
+p{
+	color: $colorSecundario;
+	font-family: $fuenteSecundario;
+	font-size: $parrafos;
+}
+
