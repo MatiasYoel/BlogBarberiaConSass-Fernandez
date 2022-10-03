@@ -34,7 +34,6 @@ nav {
     display: inline; }
 
 .logo {
-  padding-left: 40px;
   padding-top: 1px; }
 
 body {
@@ -46,12 +45,11 @@ footer {
   background-color: black;
   text-align: center;
   color: white;
-  display: flex;
-  justify-content: space-around; }
+  display: flex; }
   footer div p {
     font-size: 1.5rem; }
   footer div img {
-    height: 30px; }
+    height: 50px; }
   footer section img {
     height: 150px; }
 
